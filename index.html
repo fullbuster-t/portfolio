@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Joaquin Martinez | Desarrolladro backend y móvil</title>
+    <meta name="description" content="Portfolio de Anthony Joaquin Martinez, desarrollador backend y móvil. Explora mis proyectos con Java, Kotlin, Spring y más. ¡Contáctame para tu próximo proyecto!">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Normalize.css -->
+    <link rel="preload" href="assets/css/normalize.css" as="style">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <!-- Styles.css -->
+    <link rel="preload" href="assets/css/styles.css" as="style">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- AOS.JS-->
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"></noscript>
+    <!-- DevIcons -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"></noscript>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous" defer></script>
+    <!-- AOS.JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container-90">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="assets/img/aj-martinez.avif" alt="Portfolio logo">
+                </div>
+                <div class="header__open" id="header__open">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav class="header__nav" id="header__nav">
+                    <div class="header__close" id="header__close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="header__links">
+                        <a href="#home " class="header__link selected">Home</a>
+                        <a href="#aboutme" class="header__link" data-section="navbar" data-value="navbar_link-1">Sobre mí</a>
+                        <a href="#skills" class="header__link" data-section="navbar" data-value="navbar_link-2">Habilidades</a>
+                        <a href="#training" class="header__link" data-section="navbar" data-value="navbar_link-3">Formación</a>
+                        <a href="#projects" class="header__link" data-section="navbar" data-value="navbar_link-4">Proyectos</a>
+                    </div>
+                    <!-- Idiomas de la página -->
+                    <div id="header__flags" class="header__flags">
+                        <div class="header__language" data-language="es">
+                            <img src="./assets/img/es.svg" alt="Language spanish button">
+                        </div>
+                        <div class="header__language" data-language="en">
+                            <img src="./assets/img/gb.svg" alt="Language english button">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Home -->
+        <section class="home">
+            <div class="container-90">
+                <div class="home__info">
+                    <div class="home__links">
+                        <a class="home__link" href="https://linkedin.com/in/anthony-joaquin-martinez-a7908b291" target="_blank">
+                            <i class="devicon-linkedin-plain"></i>
+                        </a>
+                        <a class="home__link" href="https://github.com/fullbuster-t" target="_blank">
+                            <i class="devicon-github-original"></i>
+                        </a>
+                        <a class="home__link" href="" target="_blank">
+                            <i class="devicon-codepen-original"></i>
+                        </a>
+                    </div>
+                    <div class="home__description">
+                        <p class="home__greeting no-margin" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                        <h1>Joaquin Martinez</h1>
+                        <p class="home__typing" data-section="home" data-value="home_text-3">Desarrollador Backend y Móvil</p>
+                        <div class="home__presentation">
+                            <p data-section="home" data-value="home_info">Soy estudiante de Diseño de Software y Redes con una especialización en desarrollo backend y móvil. Mi pasión es construir aplicaciones robustas con Java y Kotlin, con un enfoque en la funcionalidad, la seguridad y la experiencia del usuario.</p>
+                        </div>
+                        <div class="home__buttons">
+                            <a href="#" target="_blank">
+                                <button class="btn__primary" data-section="home" data-value="cv_button">Descargar CV</button>
+                            </a>
+                            <a href="#contacto">
+                                <button class="btn__secondary" data-section="home" data-value="contact_button">Contacto</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__img">
+                        <img src="assets/img/anthony.avif" alt="Anthony Joaquin image" fetchpriority="high">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aboutme -->
+        <div class="section-tag">
+            <h2 class="section-title no-margin" id="aboutme" data-section="aboutme" data-value="aboutme_title" data-aos="fade-up">Sobre mí</h2>
+            <hr class="line-section" data-aos="fade-up">
+        </div>
+        <section class="aboutme">
+            <div class="container-90">
+                <div class="aboutme__info" data-aos="fade-right">
+                    <div class="aboutme__img">
+                        <img src="assets/img/anthony.avif" alt="Aboutme image" fetchpriority="high">
+                    </div>
+                    <div class="aboutme__description">
+                        <h3 class="aboutme__title">Joaquin Martinez</h3>
+                        <p data-section="aboutme" data-value="aboutme_text-1">Soy un Desarrollador en formación con un enfoque en Backend (Java, Spring) y Desarrollo Móvil (Kotlin, Jetpack Compose). Mi formación académica en Diseño de Software y Redes se complementa con una sólida base autodidacta, consolidada por mi participación en la 6ta generación de Oracle Next Education. <p>
+                        <p class="texto_sobreMi" data-section="aboutme" data-value="aboutme_text-2">He aplicado mis conocimientos en proyectos personales, como la interfaz de usuario de MedLink, una aplicación de seguimiento de salud, y NoteStack, una aplicación de notas para desarrolladores. También soy el autor de Orion Protocol, un blog personal en el que publico contenido técnico. <p>
+                        <p class="texto_sobreMi" data-section="aboutme" data-value="aboutme_text-3">Mi meta profesional es especializarme en la creación de sistemas backend seguros y aplicaciones móviles escalables. Mis intereses personales incluyen el fútbol y la agricultura. <p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills-->
+        <div class="section-tag">
+            <h2 class="section-title no-margin" id="skills" data-section="skills" data-value="skills_title" data-aos="fade-up">Habilidades </h2>
+            <hr class="line-section" data-aos="fade-up">
+        </div>
+        <section class="skills">
+            <div class="container-50">
+                <div class="skills__items">
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="500">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="700">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="900">
+                        <i class="devicon-sass-original colored"></i>
+                        <p>SASS</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="1100">
+                        <i class="devicon-java-plain colored"></i>
+                        <p>Java</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="500">
+                        <i class="devicon-spring-original colored"></i>
+                        <p>Spring</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="700">
+                        <i class="devicon-kotlin-plain colored"></i>
+                        <p>Kotlin</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="900">
+                        <i class="devicon-jetpackcompose-plain colored"></i>
+                        <p>Jetpack Compose</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="1100">
+                        <i class="devicon-firebase-plain colored"></i>
+                        <p>Firebase</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="500">
+                        <i class="devicon-mysql-original colored"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="700">
+                        <i class="devicon-postgresql-plain colored"></i>
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="900">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="1100">
+                        <i class="devicon-github-original-wordmark"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="500">
+                        <i class="devicon-linux-plain"></i>
+                        <p>Linux</p>
+                    </div>
+                    <div class="skills__item" data-aos="fade-up" data-aos-duration="700">
+                        <i class="devicon-trello-plain colored"></i>
+                        <p>Trello</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training -->
+        <div class="section-tag">
+            <h2 class="section-title no-margin" id="training" data-section="training" data-value="training_title" data-aos="fade-up">Formación</h2>
+            <hr class="line-section" data-aos="fade-up">
+        </div>
+        <section class="training">
+            <div class="container-75">
+                <div class="training__items">
+                    <div class="training__item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="training__logo" src="./assets/img/logo-uvm.avif" alt="Logo - Universidad del Valle de México" loading="lazy">
+                        <div class="training__text">
+                            <p class="training__title" data-section="training" data-value="training_subtitle-1">UVM - Ing. Diseño de software y redes</p>
+                            <p class="training__time" data-section="training" data-value="training_time-1">2022 - En curso</p>
+                        </div>
+                    </div>
+                    <div class="training__item" data-aos="fade-up" data-aos-duration="500">
+                        <img class="training-logo" src="./assets/img/logo-one.avif" alt="Logo - ONE: Oracle Next Education" loading="lazy">
+                        <div class="training__text">
+                            <p class="training__title" data-section="training" data-value="training_subtitle-2">Oracle Next Education F2 T7 Back-end</p>
+                            <p class="training__time" data-section="training" data-value="training_time-2">2024 - 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <div class="section-tag">
+            <h2 class="section-title no-margin" id="projects" data-section="projects" data-value="projects_title" data-aos="fade-up"> Proyectos</h2>
+            <hr class="line-section" data-aos="fade-up">
+        </div>
+        <section class="projects">
+            <div class="container-90">
+                <div class="projects__items">
+
+                    <div class="projects__item" data-aos="zoom-in-up">
+                        <img src="assets/img/-project-1-bienesraices.avif" alt="Project real state image" loading="lazy">
+                        <div class="projects__description">
+                            <div class="projects__text">
+                                <p class="projects__title" data-section="projects" data-value="projects_subtitle-1">Bienes raíces</p>
+                                <p class="projects__info" data-section="projects" data-value="projects_description-1">Aplicación web de gestión de propiedades inmobiliarias. Desarrollada con PHP y MySQL. Utiliza un enfoque de MVC para gestionar las operaciones de publicación, actualización y eliminación de propiedades</p>
+                            </div>
+                            <div class="projects__tags">
+                                <p class="projects__tag">php</p>
+                                <p class="projects__tag">sass</p>
+                                <p class="projects__tag">mysql</p>
+                            </div>
+                            <div class="projects__buttons">
+                                <a>
+                                    <button class="projects__demo"><i class="fa-solid fa-eye"></i> Demo</button>
+                                </a>
+                                <a href="https://github.com/fullbuster-t/BienesRaices" target="_blank">
+                                    <button class="projects__repo"><i class="fa-brands fa-github"></i> Repo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects__item" data-aos="zoom-in-up">
+                        <img src="assets/img/-project-2-encriptador.avif" alt="Project encryptor image" loading="lazy">
+                        <div class="projects__description">
+                            <div class="projects__text">
+                                <p class="projects__title" data-section="projects" data-value="projects_subtitle-2">Challenge Encriptador ONE</p>
+                                <p class="projects__info" data-section="projects" data-value="projects_description-2">Encriptador de Texto. Un challenge del programa Oracle Next Education. Se trata de una aplicación web construida con HTML, CSS y JavaScript que permite encriptar y desencriptar texto utilizando un algoritmo simple</p>
+                            </div>
+                            <div class="projects__tags">
+                                <p class="projects__tag">css</p>
+                                <p class="projects__tag">js</p>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://fullbuster-t.github.io/Encriptador/" target="_blank">
+                                    <button class="projects__demo"><i class="fa-solid fa-eye"></i> Demo</button>
+                                </a>
+                                <a href="https://github.com/fullbuster-t/Encriptador" target="_blank">
+                                    <button class="projects__repo"><i class="fa-brands fa-github"></i> Repo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects__item" data-aos="zoom-in-up">
+                        <img src="assets/img/-project-3-orion.avif" alt="Project orion-protocol image" loading="lazy">
+                        <div class="projects__description">
+                            <div class="projects__text">
+                                <p class="projects__title" data-section="projects" data-value="projects_subtitle-3">Orion Protocol</p>
+                                <p class="projects__info" data-section="projects" data-value="projects_description-3">Blog personal sobre desarrollo de software y redes. Creado y gestionado con Jekyll, un generador de sitios estáticos. Es un espacio para documentar mis apuntes y aprendizajes en desarrollo web y redes</p>
+                            </div>
+                            <div class="projects__tags">
+                                <p class="projects__tag">jekyll</p>
+                                <p class="projects__tag">sass</p>
+                                <p class="projects__tag">js</p>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://orion-protocol.vercel.app/" target="_blank">
+                                    <button class="projects__demo"><i class="fa-solid fa-eye"></i> Demo</button>
+                                </a>
+                                <a href="https://github.com/fullbuster-t/OrionProtocol" target="_blank">
+                                    <button class="projects__repo"><i class="fa-brands fa-github"></i> Repo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects__item" data-aos="zoom-in-up">
+                        <img src="assets/img/-project-4-coinconversor.avif" alt="Project coin conversor image" loading="lazy">
+                        <div class="projects__description">
+                            <div class="projects__text">
+                                <p class="projects__title" data-section="projects" data-value="projects_subtitle-4">Challenge Coin Conversor ONE</p>
+                                <p class="projects__info" data-section="projects" data-value="projects_description-4"> Challenge Coin Conversor. Aplicación de conversión de divisas. Utiliza una API externa para proporcionar tasas de cambio actualizadas, demostrando el manejo de solicitudes HTTP y la integración de servicios</p>
+                            </div>
+                            <div class="projects__tags">
+                                <p class="projects__tag">java</p>
+                            </div>
+                            <div class="projects__buttons">
+                                <a>
+                                    <button class="projects__demo"><i class="fa-solid fa-eye"></i> Demo</button>
+                                </a>
+                                <a href="https://github.com/fullbuster-t/CoinConversor" target="_blank">
+                                    <button class="projects__repo"><i class="fa-brands fa-github"></i> Repo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects__item" data-aos="zoom-in-up">
+                        <img src="assets/img/-project-5-literalura.avif" alt="Project literalura image" loading="lazy">
+                        <div class="projects__description">
+                            <div class="projects__text">
+                                <p class="projects__title" data-section="projects" data-value="projects_subtitle-5">Challenge Literalura ONE</p>
+                                <p class="projects__info" data-section="projects" data-value="projects_description-5">Catálogo de Libros y Autores. Proyecto desarrollado en Java utilizando Spring Data JPA para interactuar con la API de Gutenberg. Los datos se persisten en una base de datos PostgreSQL</p>
+                            </div>
+                            <div class="projects__tags">
+                                <p class="projects__tag">java</p>
+                                <p class="projects__tag">spring</p>
+                                <p class="projects__tag">postgresql</p>
+                            </div>
+                            <div class="projects__buttons">
+                                <a>
+                                    <button class="projects__demo"><i class="fa-solid fa-eye"></i> Demo</button>
+                                </a>
+                                <a href="https://github.com/fullbuster-t/Literalura" target="_blank">
+                                    <button class="projects__repo"><i class="fa-brands fa-github"></i> Repo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects__item" data-aos="zoom-in-up">
+                        <img src="assets/img/-project-6-forohub.avif" alt="Project forohub image" loading="lazy">
+                        <div class="projects__description">
+                            <div class="projects__text">
+                                <p class="projects__title" data-section="projects" data-value="projects_subtitle-6">Challenge ForoHub ONE</p>
+                                <p class="projects__info" data-section="projects" data-value="projects_description-6">Proyecto desarrollado en el programa Oracle Next Education. Consiste en una API RESTful para la gestión de un foro de discusión, implementando las operaciones CRUD para tópicos. Se encarga de la autenticación de usuarios mediante JWT (JSON Web Token), lo que demuestra la creación de un servicio seguro y funcional</p>
+                            </div>
+                            <div class="projects__tags">
+                                <p class="projects__tag">java</p>
+                                <p class="projects__tag">spring</p>
+                                <p class="projects__tag">mysql</p>
+                            </div>
+                            <div class="projects__buttons">
+                                <a>
+                                    <button class="projects__demo"><i class="fa-solid fa-eye"></i> Demo</button>
+                                </a>
+                                <a href="https://github.com/fullbuster-t/ForoHub" target="_blank">
+                                    <button class="projects__repo"><i class="fa-brands fa-github"></i> Repo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__items">
+            <div class="footer__icons">
+                <a class="footer__link" href="https://linkedin.com/in/anthony-joaquin-martinez-a7908b291" target="_blank">
+                    <i class="devicon-linkedin-plain"></i>
+                </a>
+                <a class="fotter__link" href="https://github.com/fullbuster-t" target="_blank">
+                    <i class="devicon-github-original"></i>
+                </a>
+                <a class="footer__link" href="" target="_blank">
+                    <i class="devicon-codepen-original"></i>
+                </a>
+            </div>
+            <div class="footer__copyright">
+                <p data-section="footer" data-value="footer_copyright"> Copyright © | Creado por <span class="footer__name">Joaquin Martinez</span> </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- aos.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./assets/js/script.js" defer></script>
+</body>
+
+</html>

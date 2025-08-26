@@ -1,0 +1,55 @@
+{
+    "navbar": {
+        "navbar_link-1": "About me",
+        "navbar_link-2": "Skills",
+        "navbar_link-3": "Training",
+        "navbar_link-4": "Projects"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Backend and Mobile Developer",
+        "home_info": "I'm a Software and Networks Design student with a specialization in backend and mobile development. My passion is building robust applications with Java and Kotlin, with a focus on functionality, security, and user experience.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "aboutme": {
+        "aboutme_title": "About me",
+        "aboutme_text-1": "I'm a Developer in training with a focus on Backend (Java, Spring) and Mobile Development (Kotlin, Jetpack Compose). My academic background in Software and Network Design is complemented by a strong self-taught foundation, solidified by my participation in the 6th generation of Oracle Next Education.",
+        "aboutme_text-2": "I've applied my knowledge to personal projects, such as the user interface for MedLink, a health tracking application, and NoteStack, a note-taking application for developers. I am also the author of Orion Protocol, a personal blog where I publish technical content.",
+        "aboutme_text-3": "My professional goal is to specialize in the creation of secure backend systems and scalable mobile applications. My personal interests include soccer and agriculture."
+    },
+
+    "skills": {
+        "skills_title": "Skills"
+    },
+
+    "training": {
+        "training_title": "Training",
+        "training_subtitle-1": "Software and Networks Design Engineer",
+        "training_time-1": "2022 - In progress",
+        "training_subtitle-2": "Oracle Next Education F2 T7 Back-end",
+        "training_time-2": "2024 - 2025"
+    },
+
+    "projects": {
+        "projects_title": "Projects",
+        "projects_subtitle-1": "Real State",
+        "projects_description-1": "A web application for real estate property management. Developed with PHP and MySQL, it uses an MVC approach to manage the creation, updating, and deletion of properties",
+        "projects_subtitle-2": "ONE Encryptor Challenge",
+        "projects_description-2": "A text encryption challenge from the Oracle Next Education program. It's a web application built with HTML, CSS, and JavaScript that encrypts and decrypts text using a simple algorithm",
+        "projects_subtitle-3": "Orion Protocol",
+        "projects_description-3": "A personal blog on software development and networking. Created and managed with Jekyll, a static site generator. It's a space to document my notes and learnings in web development and networking",
+        "projects_subtitle-4": "ONE Coin Converter Challenge",
+        "projects_description-4": "A currency converter application. It utilizes an external API to provide up-to-date exchange rates, demonstrating the handling of HTTP requests and service integration",
+        "projects_subtitle-5": "ONE Literalura Challenge",
+        "projects_description-5": "A book and author catalog. This project was developed in Java using Spring Data JPA to interact with the Gutenberg API. Data is persisted in a PostgreSQL database",
+        "projects_subtitle-6": "ONE ForoHub Challenge",
+        "projects_description-6": "A project developed in the Oracle Next Education program. It's a RESTful API for a discussion forum, implementing CRUD operations for topics. It handles user authentication using JWT (JSON Web Token), demonstrating the creation of a secure and functional service."
+    },
+
+    "footer": {
+        "footer_copyright": " Copyright © | Coded by <span class='footer__name'>Joaquin Martinez</span> </p>"
+    }
+}
